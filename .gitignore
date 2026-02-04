@@ -1,0 +1,98 @@
+# =========================================
+# Data Science / Python / Jupyter .gitignore
+# =========================================
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Python cache / build ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+.wheels/
+*.whl
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+ENV/
+.Python
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Data folders (do NOT version large data) ---
+data/raw/
+data/interim/
+data/processed/
+data/external/
+data/**
+
+# Se você quiser versionar somente o "data/README.md",
+# comente a linha "data/**" acima e use:
+# data/*
+# !data/README.md
+
+# --- Models / artifacts ---
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.pt
+*.pth
+
+# --- Logs / temp ---
+logs/
+*.log
+tmp/
+temp/
+.cache/
+*.tmp
+
+# --- Test / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+*.cover
+.tox/
+.nox/
+
+# --- Notebooks outputs (opcional) ---
+# Se você quiser evitar notebooks pesados, descomente:
+# notebooks/**/output/
+# notebooks/**/figures/
+
+# --- Secrets (evita vacilo) ---
+.env
+.env.*
+*.key
+*.pem
+*.p12
+credentials.json
+secrets.json
+
+# --- Misc ---
+*.sqlite
+*.db
+*.parquet
+*.feather
+*.csv
+*.xlsx

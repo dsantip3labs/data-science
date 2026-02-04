@@ -1,0 +1,82 @@
+# Data Science "Complete-ish" stack (Python)
+# Use: pip install -r requirements.txt
+
+
+# --- Core ---
+numpy
+pandas
+scipy
+
+# --- Notebooks / Interactive ---
+jupyter
+notebook
+jupyterlab
+ipykernel
+ipywidgets
+widgetsnbextension
+
+# --- Visualization ---
+matplotlib
+plotly
+
+# --- Stats / Modeling / ML ---
+scikit-learn
+statsmodels
+joblib
+
+# --- Feature engineering / preprocessing helpers ---
+category-encoders
+imbalanced-learn
+
+# --- Model explainability ---
+shap
+
+# --- Data validation / cleaning ---
+pyjanitor
+missingno
+
+# --- I/O formats ---
+openpyxl
+pyarrow
+fastparquet
+
+# --- Data acquisition ---
+requests
+beautifulsoup4
+lxml
+
+# --- Progress / Utils ---
+tqdm
+python-dotenv
+pydantic
+
+# --- Experiment tracking / reporting ---
+mlflow
+rich
+
+# --- NLP (leve e útil) ---
+nltk
+spacy
+
+# --- Time series (leve) ---
+pmdarima
+
+# --- SQL / DB ---
+sqlalchemy
+
+# --- Testing / Quality (recomendado mesmo em DS) ---
+pytest
+black
+isort
+flake8
+
+# --- Optional (comentado): use só se precisar ---
+# jupyterlab-git
+# duckdb
+# polars
+# xgboost
+# lightgbm
+# catboost
+# tensorflow
+# torch
+# transformers
