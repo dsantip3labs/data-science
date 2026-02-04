@@ -1,5 +1,3 @@
-# README.md
-
 # Data Science — IBM Track + Projects
 
 Repositório para centralizar meus estudos de Ciência de Dados (principalmente via Coursera/IBM) + prática diária + projetos de portfólio.
@@ -49,19 +47,21 @@ data-science/
 ├─ download_data.py
 └─ train_model.py
 
-
 ---
 
 ## Convenções (pra não virar caos)
 
 ### Notebooks
+
 - Padrão: `YYYY-MM-DD_tema.ipynb`
 - Ex.: `2026-02-04_pandas_groupby.ipynb`
 
 ### Pastas de curso
+
 - `notebooks/course/cXX_nome/` (um “cXX” por módulo/curso)
 
 ### Commits
+
 - `course: ...` (conteúdo do curso)
 - `practice: ...` (notebook de prática)
 - `project: ...` (projeto)
@@ -72,7 +72,9 @@ data-science/
 ## Setup do ambiente (simples)
 
 ### 1) Criar e ativar venv
+
 **Windows (PowerShell):**
+
 ```bash
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
