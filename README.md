@@ -14,6 +14,7 @@ Repositório para centralizar meus estudos de Ciência de Dados (principalmente 
 
 ## Estrutura do repositório
 
+```bash
 data-science/
 ├─ README.md
 ├─ ROADMAP.md
@@ -46,6 +47,7 @@ data-science/
 └─ scripts/
 ├─ download_data.py
 └─ train_model.py
+```
 
 ---
 
@@ -78,7 +80,7 @@ data-science/
 ```bash
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-
+```
 
 ## Livros
 
